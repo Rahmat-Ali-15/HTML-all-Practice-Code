@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<title>Build a Survey Form</title>
+		<link rel="stylesheet" href="survey.css">
+	</head>
+	<body>
+		<h1>GeeksforGeeks Survey Form</h1>
+		<form action="/index.html" method="get">
+			<div class="form-control">
+				<label for="name">Name</label>
+				
+				<input type="text" name="Student_Name" id="name" placeholder="Enter Your Name" required>
+			</div>
+			
+			
+			<div class="form-control">
+				<label for="email">Email</label>
+				
+				<input type="email" name="Student_Email" id="email" placeholder="Enter Your Email" required>
+			</div>
+			
+			
+			<div class="form-control">
+				<label for="age">Age</label>
+				
+				<input type="number" name="Student_Age" id="age" placeholder="Enter Your Age" required>
+			</div>
+			
+			
+			<div class="frole">
+				<label for="role">Which option best describes you?</label>
+			
+			<select name="Student_Role" id="role" style="width: 95%;height:35px;">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+			</div>
+			<br/>
+			
+			<div class="recommend">
+				<label>Would you recommend GeeksforGeeks for a friend?</label>
+				<br/>
+				<label for="recommend-1"><label>
+				<input type="radio" name="recommend_1" id="recommend-1">Yes
+				<br/>
+				
+				<label for="recommend-2"><label>
+				<input type="radio" name="recommend_1" id="recommend-2">No
+				<br/>
+				
+				<label for="recommend-3"><label>
+				<input type="radio" name="recommend_1" id="recommend-3">Maybe
+			</div>
+			<br/>
+			
+			<div class="language">
+				<label>Language and Frameworks known (check all that apply)</label>
+				<br/>
+				<label for="language-1"><label>
+				<input type="checkbox" name="Choose_language" id="language">C
+				<br/>
+				
+				<label for="language-2"><label>
+				<input type="checkbox" name="Choose_language" id="language-2">C++
+				<br/>
+				
+				<label for="language-3"><label>
+				<input type="checkbox" name="Choose_language" id="language-3">C#
+				<br/>
+				
+				<label for="language-4"><label>
+				<input type="checkbox" name="Choose_language" id="language-4">Java
+				<br/>
+				
+				<label for="language-5"><label>
+				<input type="checkbox" name="Choose_language" id="language-5">Python
+				<br/>
+				
+				<label for="language-6"><label>
+				<input type="checkbox" name="Choose_language" id="language-6">JavaScript
+				<br/>
+				
+				<label for="language-7"><label>
+				<input type="checkbox" name="Choose_language" id="language-7">React
+				<br/>
+				
+				<label for="language-8"><label>
+				<input type="checkbox" name="Choose_language" id="language-8">Angular
+				<br/>
+				
+				<label for="language-9"><label>
+				<input type="checkbox" name="Choose_language" id="language-9">Django
+				<br/>
+				
+				<label for="language-10"><label>
+				<input type="checkbox" name="Choose_language" id="language-10">Spring
+				<br/>
+			</div>
+			<br/>
+			
+			<div class="form-control">
+				<label for="comment">Any comments or Suggestions</label>
+				
+				<textarea name="Comment" id="comment" rows="3" cols="30" placeholder="Please Enter your comments"></textarea>
+			</div>
+			
+			
+			 <button type="submit" value="submit">Submit</button>
+		</form>
+	</body>
+</html>

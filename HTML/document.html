@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Roboto;
+        }
+
+        .parent {
+            display: flex;
+
+        }
+
+        .navbar {
+            height: 50px;
+            width: 100%;
+            font-size: 22px;
+            list-style-type: none;
+            align-items: center;
+            justify-content: space-evenly;
+
+            display: flex;
+            color: blue;
+        }
+
+        #name {
+            margin-right: 400px;
+        }
+
+        #button {
+            padding: 10px;
+            color: blue;
+            border: 2px solid blue;
+            border-radius: 20px;
+            background-color: white;
+            cursor: pointer;
+        }
+
+        #button:hover {
+            color: white;
+            background-color: blue;
+
+        }
+
+        .first_section {
+            padding: 50px;
+            height: 300px;
+            width: 70%;
+            text-align: justify;
+            font-size: 22px;
+        }
+        .second_section{
+            padding: 50px;
+            height: 300px;
+            width: 30%;
+            text-align: justify;
+            font-size: 22px;
+        }
+
+        #main_button {
+            width: 150px;
+            padding: 10px;
+            margin-top: 25px;
+            border: 2px solid blue;
+            border-radius: 20px;
+            color: blue;
+            cursor: pointer;
+            transition: ease-in 0.5s;
+
+
+
+
+
+            
+        }
+
+        #main_button:hover {
+            color: white;
+            background-color: blue;
+            transform: scale(1.1);
+        }
+
+        .doremon {
+            height: 100px;
+            width: 200px;
+        }
+
+        .novita {
+            height: 100px;
+            width: 100px;
+        }
+
+        .parent_div {
+            display: flex;
+            gap: 20px;
+        }
+
+        .big_child_1,
+        big_child_2 {
+            height: 200px;
+            width: 200px;
+            display: flex;
+        }
+        .big_child_2{
+            width: 400px;
+            padding: 20px;
+            border: 2px solid blue;
+            background-color: aqua;
+            color: black;
+            
+        }
+        .big_child_1{
+            margin-left: 125px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <li id="name">MD RAHMAT ALI</li>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>GALLERY</li>
+            <li>SERVICES</li>
+            <li>CONTACT</li>
+            <button id="button">FREE CODE</button>
+        </nav>
+    </header>
+    <main class="parent">
+        <section class="first_section">
+            <div class="small_text">
+                <h1>Create, Code, and Published</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint odio eveniet provident! At tenetur, ea
+                    ullam alias dolorem dolore est dicta omnis aspernatur, facilis non possimus nihil enim ipsa fugiat.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis, asperiores quam alias
+                    voluptatem, nihil rerum ut ea fuga ipsum, qui ullam error provident totam. Nesciunt qui adipisci
+                    consequuntur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam nobis alias quis quam
+                    dolores voluptates labore nam aut repudiandae pariatur? Eveniet doloribus dolor porro tempora
+                    dignissimos debitis velit ea ab?</p>
+            </div>
+            <button id="main_button">Get Started</button><br>
+            <div class="parent_div">
+                <div class="child_1">
+                    <img src="https://www.shutterstock.com/image-vector/doraemon-cute-hand-drawn-illustration-600nw-2352837563.jpg"
+                        alt="Doremon" class="doremon">
+                    <h5>Write Code</h5>
+                    <p>Far far away, behind</p>
+                </div>
+
+                <div class="child_2">
+                    <img src="https://i.pinimg.com/736x/e9/36/ab/e936ab240156c33be7974c2c36188bdf.jpg" alt="Nobita"
+                        class="novita">
+                    <h5>Learn Code</h5>
+                    <p>Far far away, behind</p>
+                </div>
+            </div>
+        </section>
+        <section class="second_section">
+            <div class="big_text">
+                <div class="big_child_1">
+                    <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8="
+                        alt="Nature">
+                </div>
+                <div class="big_child_2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, unde facere. Molestias
+                        provident nulla, sapiente, quod aliquid repudiandae maiores quasi excepturi quibusdam omnis
+                        dolore odit rem saepe nobis inventore at!</p><br>
+                    <h5>Md Rahmat Ali</h5>
+                    <p>Full stack developer</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

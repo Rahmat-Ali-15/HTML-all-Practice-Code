@@ -1,0 +1,125 @@
+<html>
+	<head>
+		<title>Practice 1</title>
+		<style>
+			td,th{
+				padding-right:200px;
+				padding-bottom:15px;
+				color:navy;
+			}
+			table{
+			background-color:rgb(52, 235, 222);
+			}
+			h1{
+				color:white;
+			}
+			body{
+				background-color:rgb(176,33,96);
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align="center">Student Registration Form</h1>
+		<form  action="#" method="post">
+			<table align="center">
+				<thead>
+					<tr>
+						<th colspan="4">Student Details</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Student Name</td>
+						<td><input type="text" name="student_name" id="for" placeholder="Write your name" required></td>
+					</tr>
+					<tr>
+						<td>Father's Name</td>
+						
+						<td><input type="text" name="father_name" id="fname" placeholder="Write your father name" required></td>
+					</tr>
+					<tr>
+						<td>D.O.B</td>
+						
+						<td><input type="date" name="student_dob" id="dob" required></td>
+					</tr>
+					<tr>
+						<td>Sex</td>
+						
+						<td>
+							<input type="radio" name="student_gender" value="Male" id="male" required>
+							<label for="male">Male</label>
+							<input type="radio" name="student_gender" value="Female" id="female" required>
+							<label for="female">Female</label>
+						</td>
+					</tr>
+					<tr>
+						<td>Email Id</td>
+						<td><input type="email" name="User_Email" id="email" placeholder="Write your Email" required></td>
+					</tr>
+					<tr>
+						<td>Course</td>
+						<td><select name="choose_course" id="cc" required>
+							<option>Select...</option>
+							<option>Arts</option>
+							<option>Science</option>
+							<option>Commerce</option>
+							<option>BCA</option>
+							<option>MBA</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>Permanant Address</td>
+						<td><textarea name="User_address" required></textarea></td>
+					</tr>
+					<tr>
+						<td>City</td>
+						<td><select name="choose_city" id="city" required>
+							<option>Select...</option>
+							<option>Muzaffarpur</option>
+							<option>Patna</option>
+							<option>Samastipur</option>
+							<option>Hazipur</option>
+							<option>Dharbhanga</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>District</td>
+						<td><select name="choose_district" id="district" required>
+							<option>Select...</option>
+							<option>Muzaffarpur</option>
+							<option>Patna</option>
+							<option>Gaya</option>
+							<option>Madhubani</option>
+							<option>Saharsha</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>State</td>
+						<td><select name="choose_state" id="state" required>
+							<option>Select...</option>
+							<option>Bihar</option>
+							<option>Jharkhand</option>
+							<option>Uttar Pradesh</option>
+							<option>Maharashtra</option>
+							<option>Delhi</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>PinCode</td>
+						<td><input maxlength="3" type="number" name="user-number" id="pin" placeholder="Write your pin" required></td>
+					</tr>
+					<tr>
+						<td>Mobile Number</td>
+						<td><input maxlength="11" type="tel" name="user-mobile" id="mobile" placeholder="Write your mobile" required></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Submit"><input type="reset" value="Reset"></td>
+					</tr>
+				</tfoot>
+			</table>
+		</form>
+	</body>
+</html>

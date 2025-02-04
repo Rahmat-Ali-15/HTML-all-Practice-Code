@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 2</title>
+	<style>
+		td{
+			padding-bottom:5px;
+			
+		}
+		th{
+			padding-bottom:10px;
+			font-size:20px;
+			
+		}
+		table{
+			border-collapse:collapse;
+			background-color:rgb(99, 184, 176);
+			color:white;
+		}
+	</style>
+</head>
+<body>
+    <form action="/contactreply.html" method="get">
+        <table align="center">
+            <thead>
+                <tr>
+                    <th colspan="2">Absence Request Form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="User_Name" id="" required></td>
+                </tr>
+                <tr>
+                    <td>Email<br/>Address:</td>
+                    <td><input type="email" name="User_Email" id="" required></td>
+                </tr>
+                <tr>
+                    <td>Position</td>
+                    <td><input type="text" name="Position" id="" required></td>
+                </tr>
+                <tr>
+                    <td>Department</td>
+                    <td><select name="department_name" id="" required>
+                        <option value="select department">Select Department...</option>
+                        <option value="physics">Physics</option>
+                        <option value="chemistry">chemistry</option>
+                        <option value="bca">BCA</option>
+                        <option value="mathematics">Mathematics</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><hr/></td>
+                </tr>
+                <tr>
+                    <td>Reason For<br>Absence?</td>
+                    <td>
+						<input type="radio" name="User_Absent_Reason" value="Holiday" id="holiday" required>
+						<label for="holiday">Floating Holiday</label><br>
+						<input type="radio" name="User_Absent_Reason" value="Vacation" id="vacation" required>
+						<label for="vacation">Vacation</label><br>
+						<input type="radio" name="User_Absent_Reason" value="Sick" id="sick" required>
+						<label for="sick">Sick-Leave</label><br>
+						<input type="radio" name="User_Absent_Reason" value="FMLA" id="fmla" required>
+						<label for="fmla">FMLA</label><br>
+						<input type="radio" name="User_Absent_Reason" value="Other" id="other">Other: <input type="text" name="user-detail">
+						<label for="other"></label><br>
+					</td>
+				</tr>
+                <tr>
+                    <td colspan="2"><hr></td>
+                </tr>    
+            
+			
+				<tr>
+					<td>Dates of<br>Absence:</td>
+					<td><input type="date" name="select_date" id="date">to<input type="date" name="select_dates_range" id="dates"></td>
+				</tr>
+				<tr>
+					<td>Total Days<br>Absent:</td>
+					<td>
+						<input type="text" name="Absent_Days" id="absent">
+						<label for="absent"></label>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="radio" name="User_Days" value="With" id="with">
+						<label for="with">With Pay</label><br>
+						<input type="radio" name="User_Days" value="Without" id="without">
+						<label for="without">Without Pay</label><br>
+					</td>
+				</tr>
+				<tr>
+					<td>Comment:</td>
+					<td>
+						<textarea name="User_Comment" id="comment"></textarea>
+					</td>
+				</tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" name="submit" id=""><input type="reset" name="Reset" id=""></td>
+                    <a href="/contactreply.html"></a>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+    
+</body>
+</html>

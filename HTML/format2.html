@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>format in html</title>
+</head>
+<body align="center">
+    <form action="/">
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="User_Email" id="email" required>
+        <br>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name="User_Name" id="name" required>
+        <br>
+        <label for="message">Enter Message:</label>
+        <br>
+        <textarea name="User_Message" id="message" cols="15" rows="5"></textarea>
+    </fieldset>
+    <fieldset>
+        <label for="country">Select Country</label>
+        <br>
+        <select name="User_Country" id="country">
+            <option value="default">default</option>
+            <option value="Shrilanka">Shrilanka</option>
+            <option value="Maldiv">Maldiv</option>
+            <option value="India">India</option>
+        </select>
+        <br>
+        <label for="cityFeild">Select City:</label>
+        <br>
+        <input list="City" name="user_city" id="cityFeild">
+        <datalist id="City">
+            <option value="default">default</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Patna">Patna</option>
+            <option value="Muzaffarpur">Muzaffarpur</option>
+        </datalist>
+        <br>
+    </fieldset>
+    <input type="submit" name="Login" id="login">
+    </form>
+    
+</body>
+</html>
