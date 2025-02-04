@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector</title>
+    <style>
+        a[target="_self"]{
+            background-color: yellow;
+        }
+        img[src="image.jpg"]{
+            color: red;
+            height: 50%;
+            width: 30%;
+            border: 2px solid black;
+            padding: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>CSS Attribute Selector</h1>
+    <p>The links with a target attribute gets a yellwo background.</p>
+    <a href="/form.html">Form</a>
+    <br>
+    <a href="/contactreply.html" target="_blank">Contact Reoly</a>
+    <br>
+    <a href="/format2.html" target="_self">Format</a>
+    <br>
+    <br>
+    <figure>
+        <img src="image.jpg" alt="Image">
+    </figure>
+</body>
+</html>

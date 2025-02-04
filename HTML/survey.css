@@ -1,0 +1,58 @@
+
+
+body {
+background-color: #05c46b;
+font-family: Verdana;
+}
+h1{
+text-align: center;
+}
+form
+{
+background-color: #fff;
+max-width: 500px;
+margin: 50px auto;
+padding: 30px 20px;
+box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.form-control label,
+.form-control input {
+display: block;
+margin-bottom: 10px;
+}
+.form-control input,
+.form-control select,
+.form-control textarea {
+border: 1px solid #777;
+border-radius: 2px;
+margin-bottom: 25px;
+padding: 10px;
+display: block;
+width: 95%;
+}
+.frole label{
+margin-bottom: 10px;
+
+}
+#role{
+margin-bottom: 10px;
+}
+.recommend input,
+.recommend label{
+margin-bottom: 10px;
+}
+.language input,
+.language label{
+margin-bottom: 10px;
+}
+button{
+text-align: center;
+background-color: #05c46b;
+border: 1px solid #777;
+border-radius: 2px;
+font-size: 21px;
+display: block;
+width: 100%;
+margin-top: 50px;
+margin-bottom: 20px;
+}

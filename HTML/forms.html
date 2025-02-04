@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Forms in html</title>
+	</head>
+	<body>
+		<h1>Forms in html</h1>
+		<form acrion="/" method="get">
+			<fieldset>
+				<legend>Personal Details</legend>
+				<label for="firstname">First Name:</label>
+				<br>
+				<input type="text" name="fname" id="firstname" placeholder="Write your first name"/>
+				<br>		
+				<br>	
+				<label for="lastname">Last Name:</label>
+				<br>
+				
+				<input type="text" name="lname" id="lastname" placeholder="Write your last name"/>
+				<br>
+				<br>
+				<label for="email">Email:</label>
+				
+				<br>
+				<input type="email" name="useremail" id="email"/>
+				<br>
+				<br>
+				<label for="message">Enter Message:</label>
+				<br>
+				<textarea id="message"></textarea>
+			</fieldset>
+			<fieldset>
+				<legend>Address</legend>
+				<label for="country">Select Country:</label>
+				<br>
+				<select name="usercountry" id="country">
+					<option value="default">Default</option>
+					<option value="maldiv">Maldiv</option>
+					<option value="shrilanka">Shrilanka</option>
+					<option value="india">India</option>
+					<option value="pakistan">Pakistan</option>
+				</select>
+				<br>
+				<br>
+				<label for="city">Select City:</label>
+				<input list="selectcountry" id="city">
+				<datalist id="city">
+					<option value="default">Default</option>
+					<option value="mumbai">Mumbai</option>
+					<option value="delhi">Delhi</option>
+					<option value="patna">Patna</option>
+					<option value="muzaffarpur">Muzaffarpur</option>
+				</datalist>
+				
+			</fieldset>
+		
+		</form>
+	</body>
+</html>
