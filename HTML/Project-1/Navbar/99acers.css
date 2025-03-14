@@ -1,0 +1,141 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: border-box;
+}
+.logo{
+	color: white;
+	padding-left: 25px;
+	font-size: 36px;
+}
+.select_search{
+	margin-left: 10px;
+	border: none;
+	color: white;
+	background-color: #0052cc;
+}
+.nav_bar{
+	width: 100%;
+	height: 60px;
+	
+	display: flex;
+	align-items: center;
+	background-color: #0052cc;
+}
+.search_bar{
+	width: 500px;
+	height: 45px;
+	display: flex;
+	padding-left: 25px;
+	justify-content: space-evenly;
+	
+}
+.select_buy{
+	width: 80px;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: none;
+	background-color: #f2f2f2;
+}
+.search_input{
+	width: 100%;
+	border: none;
+	padding-left: 20px;
+}
+.search_icon{
+	width: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border: none;
+	color: white;
+	background-color: #febd68;
+}
+.navbar_last_part{
+	width: 200px;
+	height: 40px;
+	margin-left: 30px;
+	border: none;
+	border-radius: 5px;
+	background-color: white;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.nav_free_part{
+	padding: 5px;
+	color: white;
+	background-color: green;
+	border: none;
+	border-radius: 5px;
+}
+/**main content**/
+.main_content{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+}
+/** footer content **/
+.main_footer_content{
+	height: 500px;
+	width: 100%;
+	background-color: #02021E;
+	color: white;	
+}
+.child_div1{
+	padding: 50px 50px 0 50px;
+}
+.uper_part{
+	width: 32%;
+	margin-bottom: 30px;
+}
+.input_part{
+	width: 32%;
+	height: 30px;
+	padding-left: 15px;
+	margin-bottom: 30px;
+	border: none;
+	border-radius: 30px;
+}
+.image_icon{
+	width: 32%;
+	height: 40px;
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+	align-items: center;	
+}
+.insta{
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.facebook{
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.twitter{
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.whatsapp{
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.linkedin{
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.snapchat{
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+

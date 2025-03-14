@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.animation{
+	height: 100px;
+	width: 100px;
+	color: white;
+	text-align: center;
+	margin-bottom: 320px;
+	background-color: red;
+	/*animation-name: colorChange;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-time: linear;*/
+	animation: colorChange 5s 0s infinite linear;
+	position: relative;
+}
+@keyframes colorChange{
+	0%{
+		background-color: red;
+		left: 0;
+		top: 0;
+	}
+	25%{
+		background-color: blue;
+		left: 300px;
+		top: 0;
+	}
+	50%{
+		background-color: gray;
+		left: 300px;
+		top: 300px;
+	}
+	75%{
+		background-color: green;
+		left: 0;
+		top: 300px;
+	}
+	100%{
+		background-color: pink;
+		left: 0;
+		top: 0;
+	}
+}
+
+.task_1{
+	height: 200px;
+	width: 900px;
+	text-align: center;
+}
+/* first part parent div start from here */
+.first_part{
+	height: 50px;
+	width: 900px;
+	background-color: aqua;
+	display: flex;
+}
+.first_part_div1{
+	height: 50px;
+	width: 200px;
+	background-color: yellow;
+}
+.first_part_div2{
+	height: 50px;
+	width: 300px;
+	background-color: red;
+}
+.first_part_div3{
+	height: 50px;
+	width: 400px;
+	background-color: gray;
+}
+
+/* second_part children div start from here */
+
+.second_part{
+	height: 100px;
+	width: 900px;
+	background-color: aquamarine;
+}
+/* third_part parent div start from here */
+.third_part{
+	height: 50px;
+	width: 900px;
+	background-color: yellow;
+	display: flex;
+}
+.third_part_div1{
+	height: 50px;
+	width: 400px;
+	background-color: green;
+}
+.third_part_div2{
+	height: 50px;
+	width: 500px;
+	background-color: blue;	
+}
+.transform{
+	height: 200px;
+	width: 200px;
+	background-color: violet;
+	margin: 100px 500px;
+	cursor: pointer;
+}
+.transform:hover{
+	transform: skew(60deg)
+}

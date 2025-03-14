@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Table</title>
+		<link rel="stylesheet" href="table.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="registration">Registration</div>
+			<form>
+				<div class="container_2">
+					<div class="inputbox">
+						<span class="input_text">Full Name</span>
+						<input type="text" name="User_Full_Name" placeholder="Enter your name" required>
+					</div>
+					
+					<div class="inputbox">
+						<span class="input_text">Username</span>
+						<input type="text" name="User_Username" placeholder="Enter your username" required>
+					</div>
+					
+					<div class="inputbox">
+						<span class="input_text">Email</span>
+						<input type="email" name="User_Email" placeholder="Enter your email" required>
+					</div>
+					
+					<div class="inputbox">
+						<span class="input_text">Phone Number</span>
+						<input type="tel" name="User_Phone_Number" placeholder="Enter your number" required>
+					</div>
+					
+					<div class="inputbox">
+						<span class="input_text">Password</span>
+						<input type="password" name="User_Password" placeholder="Enter your password" required>
+					</div>
+					
+					<div class="inputbox">
+						<span class="input_text">Confirm Password</span>
+						<input type="password" name="User_Confirm_Password" placeholder="Confirm your name" required>
+					</div>
+					<div class="gender_container">
+						<div class="gender_div">Gender</div>
+						
+						<div class="gender_container2">
+						
+							<div>
+								<input class="gender_input" type="radio" name="User_Gendeer" value="male" id="male" required>
+								<label for="male">Male</label>
+							</div>
+							
+							<div>
+								<input class="gender_input" type="radio" name="User_Gendeer" id="female" required>
+								<label for="female">Female</label>
+							</div>
+							
+							<div>
+								<input class="gender_input" type="radio" name="User_Gendeer" id="not say" required>
+								<label for="not say">Prefer not to say</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="button" type="submit">Register</button>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.nav_bar{
+	width: 100%;
+	display: flex;
+	list-style-type: none;
+	
+}
+.select{
+	outline: 0px;
+}
+.search_bar{
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img src="https://cdn.pixabay.com/photo/2015/08/11/12/32/facebook-884378_1280.png" alt="Facebook">
+						<img src="https://cdn.pixabay.com/photo/2016/11/19/03/08/youtube-1837872_1280.png" alt="YouTube">
+						<img src="https://cdn.pixabay.com/photo/2016/11/01/12/09/twitter-logo-1788039_1280.jpg" alt="X">
+						<img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg" alt="Instagram">

@@ -1,0 +1,117 @@
+/**{
+	padding: 0;
+	margin: 0;
+}*/
+.main_container{
+	width: 1000px;
+	height: 540px;
+	border: 2px solid black;
+	text-align: center;
+	background-color: aqua;
+}
+/* Section_1 contain header part and Header part start from here. */
+}
+.section_1{
+	width: 1000px;
+	height: 140px;
+	border: 1px solid black;
+}
+.header_part{
+	width: 1000px;
+	height: 100px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+.navbar_part{
+	width: 1000px;
+	height: 40px;
+	display: flex;
+}
+.navbar_all_div{
+	height: 40px;
+	width: 200px;
+}
+/* Header part End here. */
+/* section_2 start from here. */
+.section_2{
+	width: 1000px;
+	height: 250px;
+}
+.section_2_parent_div1{
+	width: 1000px;
+	height: 200px;
+	border: 1px solid black;
+	display: flex;
+}
+.section_2_parent_div1_big_child_1{
+	width: 250px;
+	height: 200px;
+}
+.section_2_parent_div2{
+	width: 1000px;
+	height: 50px;
+	background-color: red;
+}
+.row1{
+	width: 250px;
+	height: 40px;
+	background-color: red;
+}
+.row2{
+	width: 250px;
+	height: 40px;
+	background-color: blue;
+}
+.row3{
+	width: 250px;
+	height: 40px;
+	background-color: gray;
+}
+.row4{
+	width: 250px;
+	height: 40px;
+	background-color: yellow;
+}
+.row5{
+	width: 250px;
+	height: 40px;
+	background-color: green;
+}
+.section_2_parent_div1_big_child_2{
+	height: 200px;
+	width: 750px;
+	background-color: aqua;
+}
+.section_3{
+	width: 1000px;
+	height: 100px;
+	background-color: lightgray;
+	display: flex;
+}
+.section_3_row1{
+	width: 330px;
+	height: 100px;
+	background-color: green;
+}
+.section_3_row2{
+	width: 330px;
+	height: 100px;
+	background-color: gray;
+}
+.section_3_row3{
+	width: 340px;
+	height: 100px;
+	background-color: brown;
+}
+.section_4{
+	height: 50px;
+	width: 1000px;
+	background-color: aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	word-spacing: 15px;
+}
+
+
