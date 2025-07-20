@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>HTML Canvas</h1>
+    <canvas width="400" height="400" id="myCanvas" style="border: 9px solid red;"></canvas>
+
+    <script>
+        // get the canvas element and its context
+
+        const canvas = document.querySelector("#myCanvas");
+        const ctx = canvas.getContext("2d");
+
+        // Draw a rectangle
+
+        ctx.fillStyle = "green";
+        // co-ordinates:- x-axis, y-axix, width, height
+        ctx.fillReact(250,250,200,160);
+    </script>
+</body>
+</html>
