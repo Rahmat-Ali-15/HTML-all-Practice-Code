@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>HTML Canvas</h1>
-    <canvas width="800" height="500" id="myCanvas" style="border: 9px solid red;"></canvas>
+    <canvas width="800" height="600" id="myCanvas" style="border: 9px solid red;"></canvas>
 
     <script>
         // get the canvas element and its context
@@ -17,18 +17,34 @@
         const ctx = canvas.getContext("2d");
 
         // Draw a rectangle
-
         ctx.fillStyle = "green";
         // co-ordinates:- x-axis, y-axix, width, height
         ctx.fillRect(250,250,200,160);
 
-        // Draw a circle
 
+        // Draw a circle
         ctx.beginPath(); // The beginPath() method is called before beginnig each line, so that they
-        // co-ordinates:- x,y,r(radius),start-angle,end-angle
         ctx.fillStyle = "purple";
+        // co-ordinates:- x,y,r(radius),start-angle,end-angle
         ctx.arc(200,100,90,0,2*Math.PI);
         ctx.fill(); // We have to invoke this methods...
+
+
+        // Draw a line
+        ctx.beginPath();
+        ctx.moveTo(0,500); // x,y axis co-ordination
+        ctx.lineTo(800,400); // x,y axis co-ordination
+        ctx.strokeStyle = "blue";
+        ctx.lineWidth = 10;
+        ctx.stroke();
+
+        // new path begin 
+        ctx.beginPath();
+        ctx.strokeStyle = "gray";
+        ctx.moveTo(800,0); // Top of the line where we put our co-ordination
+        ctx.lineTo(0,595); // Bottom of the line where we put our co-ordination
+        ctx.lineWidth = 10;
+        ctx.stroke();
 
     </script>
 </body>
